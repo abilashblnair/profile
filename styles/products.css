@@ -1,0 +1,26 @@
+/* Product portfolio additions, shared by the source and static build. */
+.product-cover { display: flex; align-items: center; justify-content: space-between; padding: 2rem; background: #e8eefc; }
+.product-monogram { display: grid; place-items: center; width: 80px; height: 80px; border: 1px solid currentColor; border-radius: 24px; font-size: 2rem; font-weight: 700; letter-spacing: -0.08em; }
+.product-kind { font-size: .75rem; text-transform: uppercase; letter-spacing: .12em; font-weight: 600; }
+.product-social .product-cover { background: #172e27; color: #ccf594; }
+.product-pixfit .product-cover { background: #e7dcfa; color: #56328a; }
+.product-auryo .product-cover { background: #dcecfb; color: #215b8b; }
+.product-lingo .product-cover { background: #f7e6ce; color: #845211; }
+.product-aarya .product-cover { background: #f6dfe9; color: #8e345e; }
+.project-card { display: flex; flex-direction: column; }
+.project-content { display: flex; flex-direction: column; flex: 1; }
+.project-links { margin-top: auto; padding-top: 1rem; }
+.hero-title { overflow-wrap: anywhere; }
+.nav-toggle { border: 0; background: transparent; padding: .5rem; }
+a:focus-visible, button:focus-visible { outline: 3px solid #2563eb; outline-offset: 5px; }
+@media (max-width: 480px) { .product-cover { padding: 1.5rem; } .product-kind { max-width: 45%; text-align: right; } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation-duration: .01ms !important; animation-delay: 0ms !important; transition-duration: .01ms !important; } }
+:root { color-scheme: dark; --neutral-50:#101311; --neutral-100:#151a16; --neutral-200:#30372f; --neutral-600:#b0b9aa; --neutral-700:#ccd3c7; --neutral-800:#ecf0e8; --neutral-900:#f3f5ef; --primary-600:#c2f970; --primary-500:#c2f970; }
+body { background:#101311; color:#f3f5ef; }
+.navbar,.navbar.scrolled { background:rgba(16,19,17,.93); }
+.hero { background:radial-gradient(ellipse at 80% 40%,#283825,transparent 60%),#101311; }
+.hero-title { font-size:clamp(3rem,6.5vw,6rem); letter-spacing:-.065em; }
+.hero-subtitle { color:#c2f970; }
+.brand-text,.btn-primary { background:#c2f970; color:#101311; }
+.project-card { border:1px solid #343c32; background:#181e18; }
+.section-title { color:#f3f5ef; }
