@@ -6,7 +6,7 @@
   "homepage": "https://abilashblnair.github.io/profile",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "node scripts/build.mjs",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",

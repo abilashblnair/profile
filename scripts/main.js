@@ -37,6 +37,7 @@ class Portfolio {
         navToggle.addEventListener('click', () => {
             navMenu.classList.toggle('active');
             navToggle.classList.toggle('active');
+            navToggle.setAttribute('aria-expanded', String(navMenu.classList.contains('active')));
         });
 
         // Close menu when clicking on nav links
@@ -44,6 +45,7 @@ class Portfolio {
             link.addEventListener('click', () => {
                 navMenu.classList.remove('active');
                 navToggle.classList.remove('active');
+                navToggle.setAttribute('aria-expanded', 'false');
             });
         });
 
@@ -52,6 +54,7 @@ class Portfolio {
             if (!navToggle.contains(e.target) && !navMenu.contains(e.target)) {
                 navMenu.classList.remove('active');
                 navToggle.classList.remove('active');
+                navToggle.setAttribute('aria-expanded', 'false');
             }
         });
     }
@@ -149,31 +152,12 @@ class Portfolio {
         }
     }
 
-    async handleFormSubmission(form) {
-        const formData = new FormData(form);
-        const submitButton = form.querySelector('button[type="submit"]');
-        const originalText = submitButton.textContent;
-
-        try {
-            // Show loading state
-            submitButton.textContent = 'Sending...';
-            submitButton.disabled = true;
-
-            // Simulate form submission (replace with actual endpoint)
-            await new Promise(resolve => setTimeout(resolve, 2000));
-
-            // Show success message
-            this.showAlert('Message sent successfully! I\'ll get back to you soon.', 'success');
-            form.reset();
-
-        } catch (error) {
-            console.error('Form submission error:', error);
-            this.showAlert('Failed to send message. Please try again later.', 'error');
-        } finally {
-            // Reset button
-            submitButton.textContent = originalText;
-            submitButton.disabled = false;
-        }
+    handleFormSubmission(form) {
+        const data = new FormData(form);
+        const subject = encodeURIComponent(data.get('subject'));
+        const body = encodeURIComponent(data.get('message') + '\n\nFrom: ' + data.get('name') + '\nEmail: ' + data.get('email'));
+        window.location.href = 'mailto:abilashblnair@gmail.com?subject=' + subject + '&body=' + body;
+        this.showAlert('Your email app will open with a draft. Send it there, or email abilashblnair@gmail.com directly.', 'info');
     }
 
     // Show Alert Messages
