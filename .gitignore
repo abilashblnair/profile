@@ -1,6 +1,9 @@
 # Dependencies
 node_modules/
 
+# Build output (GitHub Pages serves the repo root, not dist)
+dist/
+
 # Logs
 *.log
 npm-debug.log*
