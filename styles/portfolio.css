@@ -139,3 +139,7 @@ body{font-weight:500}
 @media(max-width:1000px){.apps-grid{gap:40px 20px}.apps-grid .project-visual{height:205px}.apps-grid .project-logo{width:115px;height:115px}.apps-grid h4{font-size:1.45rem}.project-group~.work-note{flex-direction:column;align-items:flex-start;gap:0;margin-top:60px}.project-group~.work-note h3{margin:10px 0 20px}.project-group~.work-note p{margin-bottom:20px;max-width:520px}}
 @media(max-width:760px){.project-group .project-grid{grid-template-columns:1fr;gap:43px}.project-group .project-visual{height:300px}.apps-grid .project-logo{width:145px;height:145px}.apps-grid h4{font-size:1.65rem}}
 @media(max-width:520px){.project-group+.project-group{margin-top:65px}.project-group-head{margin-bottom:26px}.project-group-head h3{font-size:1.25rem}.project-group~.work-note{margin-top:45px;padding-top:28px}}
+
+/* Résumé links */
+.hero-actions{flex-wrap:wrap}@media(max-width:520px){.hero-actions .button{order:-1;flex:1 0 100%;justify-content:space-between}}
+.metric-note a{border-bottom:1px solid var(--subtle)}.metric-note a:hover{color:var(--accent);border-color:var(--accent)}
