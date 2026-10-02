@@ -1,7 +1,7 @@
 # Abilash's portfolio
 
-Static portfolio featuring SetMySocial, PixFit, AuryO, Lingo South, AARYA AI,
-and mobile engineering experience.
+Static portfolio featuring DemoVisor, SetMySocial, PixFit, AuryO, Lingo South,
+AARYA AI, and mobile engineering experience.
 
 Edit `index.html` for content, `styles/portfolio.css` for appearance, and
 `scripts/portfolio.js` for the 3D product orbit, motion controls, navigation,
@@ -22,10 +22,11 @@ product/App Store pages. Experience, dates, education, and awards follow
 the résumé dated September 6, 2026, including Best Buy from January 2026.
 
 The design uses oversized personal typography inspired by the supplied Anton
-Astakhov reference. All five products remain normal links while their visual
+Astakhov reference. All six products remain normal links while their visual
 positions are projected from a 3D orbit. Drag the orbit background or use the
 rotation buttons. Autoplay pauses during hover, keyboard focus, when offscreen,
 and in background tabs. The motion control and OS reduced-motion preference
 disable automatic motion; text and project links remain available without JS.
 
-No full résumé PDF is included in the public assets.
+The résumé PDF and the tech portfolio deck (PPTX) are in `assets/` and linked
+from the hero and contact sections.

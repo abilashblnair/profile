@@ -55,6 +55,7 @@ body{font-weight:500}
 .auryo .logo-stage{background:radial-gradient(ellipse at center,#482331,#22151d)!important}
 .lingo .logo-stage{background:radial-gradient(ellipse at center,#534321,#211e15)!important}
 .aarya .logo-stage{background:radial-gradient(ellipse at center,#2c2f33,#141517)!important}
+.demovisor .logo-stage{background:radial-gradient(ellipse at center,#2e2160,#140f26)!important}
 .career-heading strong{font-weight:700;color:var(--text)}.career-heading>span{color:var(--muted);font-size:.9375rem}
 .career-period,.career-date,.career-tags{font-size:.875rem}.career-detail ul{font-size:1rem;color:var(--muted)}
 .metric-note{font-size:.8125rem}.career-metrics strong{font-weight:700}.career-metrics>div>span{font-size:.875rem}
