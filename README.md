@@ -1,32 +1,30 @@
-# Abilash's portfolio
+# # Hi, I'm Abilash 👋
 
-Static portfolio featuring DemoVisor, SetMySocial, PixFit, AuryO, Lingo South,
-AARYA AI, and mobile engineering experience.
+**Senior Mobile Engineer | iOS • Android • React Native | Mobile Architecture & AI**
 
-Edit `index.html` for content, `styles/portfolio.css` for appearance, and
-`scripts/portfolio.js` for the 3D product orbit, motion controls, navigation,
-and contact email draft. Original logos and the portrait from the supplied
-résumé are in `assets/`. The `src/` React starter is not
-the entry point for this site.
+I'm a software engineer with **11+ years of experience** building, scaling, and shipping mobile applications across iOS, Android, and React Native.
 
-Run `npm run build` with Node.js to copy the complete site into `dist/`.
-This build needs no installed dependencies. Serve that folder with any static
-HTTP server to preview. GitHub Pages uses the `/profile/` path.
+I enjoy solving complex engineering problems, designing scalable mobile architectures, improving application performance, and building products that deliver real value.
 
-The existing `npm run deploy` command builds and publishes `dist/` to the
-`gh-pages` branch; it requires installed npm dependencies and GitHub access.
-Local edits do not update the live website until published.
+### 🚀 What I Work On
+- 📱 **Mobile Development:** Swift, SwiftUI, Kotlin, Jetpack Compose, React Native
+- 🏗️ **Architecture:** Clean Architecture, modularization, scalable mobile systems, native integrations
+- ⚡ **Performance & Quality:** Profiling, memory optimization, testing, CI/CD, release engineering
+- 🌐 **Web Development:** React, JavaScript, TypeScript
+- 🤖 **AI & Innovation:** LLM integrations, AI-powered applications, automation, developer productivity
+- ☁️ **Cloud & DevOps:** API integration, cloud architecture, build pipelines, deployment automation
 
-Product descriptions reflect the owner's September 2026 notes and public
-product/App Store pages. Experience, dates, education, and awards follow
-the résumé dated September 6, 2026, including Best Buy from January 2026.
+### 🛠️ What I'm Building
+I enjoy taking ideas from concept to production, experimenting with emerging technologies, and building practical products across mobile, web, and AI.
 
-The design uses oversized personal typography inspired by the supplied Anton
-Astakhov reference. All six products remain normal links while their visual
-positions are projected from a 3D orbit. Drag the orbit background or use the
-rotation buttons. Autoplay pauses during hover, keyboard focus, when offscreen,
-and in background tabs. The motion control and OS reduced-motion preference
-disable automatic motion; text and project links remain available without JS.
+### 🎯 Current Focus
+- Advancing toward Staff Mobile Engineer and Mobile Architect roles
+- Exploring modern mobile platform architecture and system design
+- Deepening my expertise in Android, cloud architecture, and AI engineering
+- Building and shipping independent products
 
-The résumé PDF and the tech portfolio deck (PPTX) are in `assets/` and linked
-from the hero and contact sections.
+### 🔗 Connect & Explore
+- 🌐 **Portfolio:** https://abilashblnair.github.io/profile/
+- 💻 **GitHub:** https://github.com/abilashblnair
+
+**Build thoughtfully. Learn continuously. Ship consistently.**
