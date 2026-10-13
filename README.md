@@ -1,4 +1,4 @@
-# # Hi, I'm Abilash 👋
+# Hi, I'm Abilash 👋
 
 **Senior Mobile Engineer | iOS • Android • React Native | Mobile Architecture & AI**
 
